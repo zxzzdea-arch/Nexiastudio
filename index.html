@@ -450,7 +450,7 @@ const SEED_SETTINGS = {
    API_URL : ที่อยู่เซิร์ฟเวอร์ nexia-api (เชื่อม MongoDB) เช่น 'https://nexia-api.onrender.com'
              เว้นว่าง = โหมดทดลอง เก็บข้อมูลในเบราว์เซอร์เครื่องนี้เท่านั้น
    CLOUD   : บัญชี Cloudinary สำหรับอัปโหลดรูป/คลิป (cloud name และ unsigned upload preset) */
-const API_URL = '';
+const API_URL = 'https://nexia-t7ld.onrender.com';
 const CLOUD = { name:'', preset:'' };
 const tok = () => localStorage.getItem('nexia_v3_token') || '';
 async function api(path, opt = {}){
